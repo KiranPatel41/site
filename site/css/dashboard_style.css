@@ -1,0 +1,9 @@
+.main-header .app-menu .search-bx.header-search input[type="search"] {
+    height: 35px !important; 
+}
+.box-body.box-body-padding{
+    padding: 10px !important;
+}
+.fs-14{
+ font-size: 14px !important;
+}
