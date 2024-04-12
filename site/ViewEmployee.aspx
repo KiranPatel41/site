@@ -209,7 +209,7 @@
 
 
                                                       
-
+<td>
                                                             <a href='<%#"AddEmployee.aspx?II="+Eval("EmployeId")%>' class="btn btn-sm btn-outline-primary"><span class="fa fa-pencil"></span></a>
                                                             <asp:LinkButton ID="lnkDelete" runat="server" CommandName="Delete" ToolTip="Delete" CommandArgument='<%#Eval("EmployeId")%>' class="btn btn-sm btn-outline-danger" datatoggle="modal" datatarget="#Delete" OnClientClick="javascript:return window.confirm('Are You Sure You Want To Delete?')"><i class="zmdi zmdi-delete"></i>
                                                <i class="tab-icon-trash ti-trash"></i>
